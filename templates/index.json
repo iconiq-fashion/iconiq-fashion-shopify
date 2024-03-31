@@ -140,12 +140,57 @@
         "padding_top": 60,
         "padding_bottom": 0
       }
+    },
+    "slideshow_VYHjKG": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_mhfeCi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1390_16x9_NO_LOGOS_WEB.jpg",
+            "hcaption": "",
+            "heading": "",
+            "button_h_upp": true,
+            "heading_size": "large",
+            "subheading": "",
+            "subheadingtext": "",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style": "solid",
+            "button_size": "medium-btn",
+            "button_txt_upp": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "accent-3",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_mhfeCi"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "pagicolor": "#ffffff",
+        "pagination_alignment": "center",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "1644650669e1107d39",
     "scrolling_bar_jmfh8Q",
     "7164a463-55ea-46ef-a91a-8c3f3dd268ef",
-    "image_with_text_hVNkiq"
+    "image_with_text_hVNkiq",
+    "slideshow_VYHjKG"
   ]
 }
