@@ -177,9 +177,9 @@
       {
         "type": "range",
         "id": "heading_scale",
-        "min": 80,
+        "min": 100,
         "max": 150,
-        "step": 0.001,
+        "step": 5,
         "unit": "%",
         "label": "t:settings_schema.typography.settings.heading_scale.label",
         "default": 100
@@ -198,9 +198,9 @@
       {
         "type": "range",
         "id": "body_scale",
-        "min": 80,
+        "min": 100,
         "max": 130,
-        "step": 0.001,
+        "step": 5,
         "unit": "%",
         "label": "t:settings_schema.typography.settings.body_scale.label",
         "default": 100
