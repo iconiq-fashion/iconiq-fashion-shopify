@@ -151,12 +151,14 @@
                 <h2 class="{% if block.settings.button_h_upp == true %}uppercase {% endif %} banner__heading inline-richtext  {{ block.settings.heading_size }}">{{ block.settings.heading }}</h2>
               {%- endif -%}
               {%- if block.settings.heading_image -%}
-                {{ block.settings.heading_image | image_url: width: width | image_tag:
-                    loading: 'eager',
-                    preload: 'true',
-                    width: block.settings.heading_image_size
-                    fetchpriority: 'high'
-                  }}
+                <div style="width:{{ block.settings.heading_image_size }}%">
+                {{ block.settings.heading_image | image_url: width: 3840  | image_tag:
+                  loading: 'eager',
+                  preload: 'true',
+                  fetchpriority: 'high',
+                  class: 'heading_image'
+                }}
+                </div>
               {%- endif -%}
               {%- if block.settings.subheading != blank -%}
                 <p class="banner__text inline-richtext" {{ block.shopify_attributes }}>
@@ -491,7 +493,9 @@
             "type": "number",
             "id": "heading_image_size",
             "label": "Heading image size",
-            "default": "280"
+            "default": "70",
+            "min": "20",
+            "max": "100"
           },
           {
             "type": "inline_richtext",
