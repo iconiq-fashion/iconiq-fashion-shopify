@@ -99,50 +99,6 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_hVNkiq": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_DBX47W": {
-          "type": "heading",
-          "settings": {
-            "storytitle": "Don't play badmintion, play GOODminton",
-            "heading_size": "h0"
-          }
-        },
-        "caption_qmTNEz": {
-          "type": "caption",
-          "settings": {
-            "storysubtitle": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_WrpzfK": {
-          "type": "button",
-          "settings": {
-            "btntxt": "Button label",
-            "link": "",
-            "button_style": "outline",
-            "button_size": "bs_large"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DBX47W",
-        "caption_qmTNEz",
-        "button_WrpzfK"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "image": "shopify:\/\/shop_images\/IMG_1390_16x9_NO_LOGOS_WEB.jpg",
-        "image_width": "100%",
-        "image_position": "imgpleft",
-        "imgalign": "imgalignmiddle",
-        "image_height": "adapt",
-        "Horizontal_alignment": "center",
-        "mobile_alignment": "center",
-        "padding_top": 60,
-        "padding_bottom": 0
-      }
-    },
     "slideshow_VYHjKG": {
       "type": "slideshow",
       "blocks": {
@@ -157,7 +113,7 @@
             "heading_image_size": 70,
             "subheading": "",
             "subheadingtext": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "link": "",
             "button_style": "solid",
             "button_size": "medium-btn",
@@ -193,7 +149,6 @@
     "1644650669e1107d39",
     "scrolling_bar_jmfh8Q",
     "7164a463-55ea-46ef-a91a-8c3f3dd268ef",
-    "image_with_text_hVNkiq",
     "slideshow_VYHjKG"
   ]
 }
