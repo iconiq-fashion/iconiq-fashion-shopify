@@ -150,6 +150,16 @@
               {%- if block.settings.heading != blank -%}
                 <h2 class="{% if block.settings.button_h_upp == true %}uppercase {% endif %} banner__heading inline-richtext  {{ block.settings.heading_size }}">{{ block.settings.heading }}</h2>
               {%- endif -%}
+              {%- if block.settings.heading_image -%}
+                {{ block.settings.heading_image | image_url: width: 3840 | image_tag:
+                    loading: 'eager',
+                    preload: 'true',
+                    fetchpriority: 'high',
+                    widths: widths,
+                    height: height,
+                    sizes: sizes
+                  }}
+              {%- endif -%}
               {%- if block.settings.subheading != blank -%}
                 <p class="banner__text inline-richtext" {{ block.shopify_attributes }}>
                   <span>{{ block.settings.subheading }}</span>
@@ -475,6 +485,11 @@
             ],
             "default": "large",
             "label": "t:sections.slideshow.blocks.slide.settings.heading_size.label"
+          },
+          {
+            "type": "image_picker",
+            "id": "heading_image",
+            "label": "Heading image"
           },
           {
             "type": "inline_richtext",
