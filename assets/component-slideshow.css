@@ -46,7 +46,15 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__text {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .slideshow__text {
+    align-items: center;
+  }
 }
 
 .heading_image {
