@@ -46,22 +46,6 @@
         "padding_bottom": 0
       }
     },
-    "scrolling_bar_jmfh8Q": {
-      "type": "scrolling-bar",
-      "settings": {
-        "wb_marktext": "Add promotional text here",
-        "mark_space": 30,
-        "mark_speed": 6,
-        "marq_diection": "right_left",
-        "seprater": "none",
-        "font_size": 16,
-        "color_scheme": "accent-1",
-        "text_padding_top": 20,
-        "text_padding_bottom": 20,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "7164a463-55ea-46ef-a91a-8c3f3dd268ef": {
       "type": "featured-collection",
       "custom_css": [
@@ -147,7 +131,6 @@
   },
   "order": [
     "1644650669e1107d39",
-    "scrolling_bar_jmfh8Q",
     "7164a463-55ea-46ef-a91a-8c3f3dd268ef",
     "slideshow_XpEyRi"
   ]
