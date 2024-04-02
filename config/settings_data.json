@@ -444,7 +444,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".banner__heading {color: red;}"
     ]
   }
 }
