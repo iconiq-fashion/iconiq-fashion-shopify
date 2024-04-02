@@ -25,7 +25,7 @@
             "text_alignment": "left",
             "image_overlay_opacity": 10,
             "color_scheme": "accent-3",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "left"
           }
         }
       },
