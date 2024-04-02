@@ -68,10 +68,10 @@
 
       ],
       "settings": {
-        "title": "Featured collection",
+        "title": "Now Trending",
         "heading_size": "h0",
-        "head_align": "center",
-        "collection": "",
+        "head_align": "left",
+        "collection": "dresses",
         "products_to_show": 4,
         "columns_desktop": 4,
         "enable_desktop_slider": true,
