@@ -46,9 +46,11 @@
           padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
       }
   }
-  .image-banner-content-bg {
-    background: rgba(var(--color-background), {{ section.settings.content_overlay_opacity | divided_by: 100.0 }})
-  } 
+  @media screen and (min-width: 768px) {
+    .image-banner-content-bg {
+      background: rgba(var(--color-background), {{ section.settings.content_overlay_opacity | divided_by: 100.0 }})
+    } 
+  }
 {%- endstyle -%}
 
 
