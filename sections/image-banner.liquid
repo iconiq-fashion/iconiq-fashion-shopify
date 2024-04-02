@@ -46,6 +46,9 @@
           padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
       }
   }
+  .image-banner-content-bg {
+    background: rgba(var(--color-background), {{ section.settings.content_overlay_opacity | divided_by: 100.0 }})
+  } 
 {%- endstyle -%}
 
 
@@ -81,7 +84,7 @@
         </div>
       {%- endif -%}
       <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
-        <div class="banner__box content-container {% if section.settings.full_width == true %}content-container--full-width-mobile {% endif %} gradient color-{{ section.settings.color_scheme }}">
+        <div class="banner__box content-container image-banner-content-bg {% if section.settings.full_width == true %}content-container--full-width-mobile {% endif %} gradient color-{{ section.settings.color_scheme }}">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'heading' -%}
@@ -144,6 +147,16 @@
         "unit": "%",
         "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
         "default": 0
+      },
+      {
+        "type": "range",
+        "id": "content_overlay_opacity",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Content overlay opacity",
+        "default": 30
       },
       {
         "type": "select",
