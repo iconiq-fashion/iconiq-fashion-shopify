@@ -135,7 +135,8 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/IMG_1390_16x9_NO_LOGOS_WEB.jpg",
-        "image_overlay_opacity": 3,
+        "image_overlay_opacity": 10,
+        "content_overlay_opacity": 30,
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_content_position": "top-center",
