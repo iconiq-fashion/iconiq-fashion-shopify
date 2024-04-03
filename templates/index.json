@@ -104,6 +104,7 @@
         "heading_9NB93M",
         "text_xAUJQV"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -177,7 +178,7 @@
       "settings": {
         "enable_sticky_info": true,
         "product": "one-in-a-million-gold-hand-bag",
-        "color_scheme": "accent-3",
+        "color_scheme": "accent-2",
         "secondary_background": false,
         "gallery_layout": "thumbnail_slider",
         "hide_variants": false,
