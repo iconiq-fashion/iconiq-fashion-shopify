@@ -135,24 +135,17 @@
         "heading_9NB93M": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "BE ICONIQ",
             "heading_size": "h1"
-          }
-        },
-        "text_xAUJQV": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading_9NB93M",
-        "text_xAUJQV"
+        "heading_9NB93M"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "accent-3",
         "full_width": true,
         "padding_top": 60,
