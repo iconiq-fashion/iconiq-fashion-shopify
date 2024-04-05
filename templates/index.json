@@ -86,10 +86,10 @@
     "featured_product_NmLdzN": {
       "type": "featured-product",
       "blocks": {
-        "text_AF3Uw6": {
+        "text_f93Mqp": {
           "type": "text",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}"
+            "text": "BE ICONIQ"
           }
         },
         "title_YDbnRi": {
@@ -135,7 +135,7 @@
         }
       },
       "block_order": [
-        "text_AF3Uw6",
+        "text_f93Mqp",
         "title_YDbnRi",
         "text_3jqfNW",
         "price_y3Jb9X",
