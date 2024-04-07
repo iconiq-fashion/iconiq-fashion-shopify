@@ -124,17 +124,19 @@
     "show_cartpayment": true,
     "upsellp": true,
     "upsellpempty": true,
-    "checkout_logo_image": "shopify://shop_images/logo.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
     "checkout_accent_color": "#121212",
     "checkout_button_color": "#121212",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
-        "settings": {}
+        "settings": {
+        }
       },
       "main-password-footer": {
         "type": "main-password-footer",
-        "settings": {}
+        "settings": {
+        }
       },
       "age-verification": {
         "type": "age-verification",
@@ -142,17 +144,19 @@
           "enable_age_verification": false,
           "blue_image": 40,
           "heading": "Confirm your age",
-          "question": "<p>Are you 18 years old or older?</p>",
+          "question": "<p>Are you 18 years old or older?<\/p>",
           "decline_button": "No I'm not",
           "approve_button": "Yes I am",
           "declined_heading": "Come back when you're older",
-          "declined_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
+          "declined_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
           "return_button": "Oops, I entered incorrectly",
           "color_scheme": "accent-1"
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Classic": {
@@ -280,17 +284,19 @@
       "show_cartpayment": true,
       "upsellp": true,
       "upsellpempty": true,
-      "checkout_logo_image": "shopify://shop_images/logo.png",
+      "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
       "checkout_accent_color": "#121212",
       "checkout_button_color": "#121212",
       "sections": {
         "main-password-header": {
           "type": "main-password-header",
-          "settings": {}
+          "settings": {
+          }
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": {}
+          "settings": {
+          }
         }
       }
     },
@@ -419,22 +425,26 @@
       "show_cartpayment": true,
       "upsellp": true,
       "upsellpempty": true,
-      "checkout_logo_image": "shopify://shop_images/logo.png",
+      "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
       "checkout_accent_color": "#121212",
       "checkout_button_color": "#121212",
       "sections": {
         "main-password-header": {
           "type": "main-password-header",
-          "settings": {}
+          "settings": {
+          }
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": {}
+          "settings": {
+          }
         }
       }
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+
+    ]
   }
 }
