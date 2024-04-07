@@ -10,7 +10,7 @@
           "settings": {
             "footer-logo_width": 150,
             "heading": "Talk about your business",
-            "subtext": "<p>The main goal of food packaging is to provide a practical means of protecting and delivering food goods.<\/p>",
+            "subtext": "<p>The main goal of food packaging is to provide a practical means of protecting and delivering food goods.</p>",
             "social_heading": "",
             "show_social": true
           }
@@ -33,7 +33,7 @@
           "type": "textarea",
           "settings": {
             "heading": "Contact us",
-            "contsubtext": "<p>Write your store address<\/p>",
+            "contsubtext": "<p>Write your store address</p>",
             "footer_address": "Write your store address",
             "footer_contact_no": "123 456 789",
             "footer_contact_id": "your@email.com"
@@ -54,7 +54,7 @@
         "enable_newsletter": true,
         "color_scheme": "accent-3",
         "newsheading": "Newsletter",
-        "newssub": "<p>Use this text to share information about brand with customers.<\/p>",
+        "newssub": "<p>Use this text to share information about brand with customers.</p>",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "langcur_style": "solid",
@@ -68,7 +68,5 @@
       }
     }
   },
-  "order": [
-    "footer"
-  ]
+  "order": ["footer"]
 }

@@ -47,23 +47,23 @@ body {
 }
 h1,
 .h1 {
-  font-size: calc(var(--font-body-scale) * 32px)
+  font-size: calc(var(--font-body-scale) * 32px);
 }
 h2,
 .h2 {
-  font-size: calc(var(--font-body-scale) * 30px)
+  font-size: calc(var(--font-body-scale) * 30px);
 }
 h3,
 .h3 {
-  font-size: calc(var(--font-body-scale) * 26px)
+  font-size: calc(var(--font-body-scale) * 26px);
 }
 h4,
 .h4 {
-  font-size: calc(var(--font-body-scale) * 22px)
+  font-size: calc(var(--font-body-scale) * 22px);
 }
 h5,
 .h5 {
-  font-size: calc(var(--font-body-scale) * 18px)
+  font-size: calc(var(--font-body-scale) * 18px);
 }
 h6,
 .h6 {
@@ -109,7 +109,7 @@ h6,
   min-width: 120px;
   height: auto;
   font-size: calc(var(--font-body-scale) * 14px);
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 .button::selection {
   background-color: rgba(var(--color-base-solid-button-labels), 0.3);
@@ -139,52 +139,54 @@ h6,
 .wp_link_gift_home {
   text-decoration: none;
 }
-.wp_link_gift_home span{ 
+.wp_link_gift_home span {
   font-size: calc(var(--font-body-scale) * 24px);
   font-weight: 500;
   color: rgb(var(--color-base-text));
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
-.grid_content_main,.grid_gift_amount,.gift_card_qrcode{
+.grid_content_main,
+.grid_gift_amount,
+.gift_card_qrcode {
   display: flex;
   justify-content: center;
 }
-.grid_content_main{
+.grid_content_main {
   max-width: 500px;
   min-height: 290px;
   margin: 0 auto;
   position: relative;
   border: 1px solid var(--gradient-base-accent-1);
 }
-.gift_card_code{
+.gift_card_code {
   position: absolute;
   bottom: 10px;
   background: var(--shopify-editor-setting-colors_background_1);
   border: 2px dashed;
 }
-.gift_card_qrcode{
+.gift_card_qrcode {
   flex: 0 0 60%;
   max-width: 60%;
   align-items: center;
   padding-bottom: 28px;
 }
-.grid_gift_amount{
+.grid_gift_amount {
   flex: 0 0 40%;
   max-width: 40%;
   align-items: center;
   padding: 0 10px;
   padding-bottom: 12px;
 }
-.grid_gift_amount{
-   background: var(--shopify-editor-setting-colors_background_2);
+.grid_gift_amount {
+  background: var(--shopify-editor-setting-colors_background_2);
 }
-.gift_card_qrcode{
+.gift_card_qrcode {
   background: var(--gradient-base-accent-1);
 }
-.wp_link_gift_home:hover span{ 
-  color: rgb(var(--color-base-text),.6);
+.wp_link_gift_home:hover span {
+  color: rgb(var(--color-base-text), 0.6);
 }
-.gift-card__qr-code{
+.gift-card__qr-code {
   background: var(--shopify-editor-setting-colors_background_1);
   padding: 10px;
 }
@@ -263,7 +265,7 @@ h6,
   font-size: 1.3rem;
   letter-spacing: 0.04rem;
 }
-.gift-card__price p{
+.gift-card__price p {
   margin: 0;
   word-break: break-all;
 }
@@ -296,14 +298,17 @@ h6,
   box-shadow: none;
 }
 /* Fallback - for browsers that don't support :focus-visible, a fallback is set for :focus */
-.focused, .no-js *:focus {
+.focused,
+.no-js *:focus {
   outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   outline-offset: 0.3rem;
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+  box-shadow:
+    0 0 0 0.3rem rgb(var(--color-background)),
     0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 .button:focus-visible {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-accent-1)),
+  box-shadow:
+    0 0 0 0.1rem rgb(var(--color-base-accent-1)),
     0 0 0 0.3rem rgb(var(--color-base-background-1)),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
@@ -313,17 +318,20 @@ h6,
   box-shadow: none;
 }
 .button:focus {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-accent-1)),
+  box-shadow:
+    0 0 0 0.1rem rgb(var(--color-base-accent-1)),
     0 0 0 0.3rem rgb(var(--color-base-background-1)),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 .button--secondary:focus-visible {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-outline-button-labels)),
+  box-shadow:
+    0 0 0 0.1rem rgb(var(--color-base-outline-button-labels)),
     0 0 0 0.3rem rgb(var(--color-base-background-1)),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 .button--secondary:focus {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-outline-button-labels)),
+  box-shadow:
+    0 0 0 0.1rem rgb(var(--color-base-outline-button-labels)),
     0 0 0 0.3rem rgb(var(--color-base-background-1)),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }

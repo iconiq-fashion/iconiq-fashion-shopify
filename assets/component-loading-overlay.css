@@ -37,7 +37,7 @@
   animation: dash 1.4s ease-in-out infinite;
 }
 @media screen and (forced-colors: active) {
-  .path{
+  .path {
     stroke: CanvasText;
   }
 }

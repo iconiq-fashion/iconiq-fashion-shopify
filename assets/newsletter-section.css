@@ -35,10 +35,10 @@
   margin-top: 3rem;
   width: fit-content;
 }
-.newsletter .newsletter-form__field-wrapper .field__button{
+.newsletter .newsletter-form__field-wrapper .field__button {
   height: auto;
 }
-.newsletter .newsletter__wrapper .newsletter-form .newsletter-form__message{
+.newsletter .newsletter__wrapper .newsletter-form .newsletter-form__message {
   position: unset;
   display: inline-block;
   vertical-align: middle;

@@ -7,84 +7,98 @@
   endif
 -%}
 {{ 'section-popup.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'popup.js' | asset_url }}" defer="defer"></script>
+<script src='{{ 'popup.js' | asset_url }}' defer='defer'></script>
 {%- if enable_popup -%}
-  <div class="notification-banner notification-banner--banner popup popup--{{ section.settings.position }}"
-      data-open-trigger="{{ section.settings.trigger_open }}"
-      data-open-delay-number="{{ section.settings.open_time_delay }}"
-      data-open-scroll-position="{{ section.settings.open_scroll_position }}"
-      data-open-scroll-type="{{ section.settings.open_scroll_type }}"
+  <div
+    class='notification-banner notification-banner--banner popup popup--{{ section.settings.position }}'
+    data-open-trigger='{{ section.settings.trigger_open }}'
+    data-open-delay-number='{{ section.settings.open_time_delay }}'
+    data-open-scroll-position='{{ section.settings.open_scroll_position }}'
+    data-open-scroll-type='{{ section.settings.open_scroll_type }}'
 
-      data-close-trigger="{{ section.settings.trigger_close }}"
-      data-close-delay-number="{{ section.settings.close_time_delay }}"
-      data-close-scroll-position="{{ section.settings.close_scroll_position }}"
-      data-close-scroll-type="{{ section.settings.close_scroll_type }}"
+    data-close-trigger='{{ section.settings.trigger_close }}'
+    data-close-delay-number='{{ section.settings.close_time_delay }}'
+    data-close-scroll-position='{{ section.settings.close_scroll_position }}'
+    data-close-scroll-type='{{ section.settings.close_scroll_type }}'
 
-      data-open-animation="{{ section.settings.open_animation }}"
-      data-exit-animation="{{ section.settings.close_animation }}"
-      data-overlay="{{ section.settings.show_overlay }}"
-      data-mobile-disable="{{ section.settings.mobile_disable }}"
-      data-body-scroll-disable="{{ section.settings.disable_scrolling }}"
-      data-overlay-close="{{ section.settings.overlay_close }}"
-      data-esc-close="{{ section.settings.esc_close }}"
-      data-f4-close="{{ section.settings.f4_close }}"
+    data-open-animation='{{ section.settings.open_animation }}'
+    data-exit-animation='{{ section.settings.close_animation }}'
+    data-overlay='{{ section.settings.show_overlay }}'
+    data-mobile-disable='{{ section.settings.mobile_disable }}'
+    data-body-scroll-disable='{{ section.settings.disable_scrolling }}'
+    data-overlay-close='{{ section.settings.overlay_close }}'
+    data-esc-close='{{ section.settings.esc_close }}'
+    data-f4-close='{{ section.settings.f4_close }}'
 
-      data-id="{{ section.id }}"
-      style="max-width: {{ section.settings.width | append: 'px' }}"
+    data-id='{{ section.id }}'
+    style='max-width: {{ section.settings.width | append: 'px' }}'
   >
-      <div class="popup-wrap content-container color-{{ section.settings.color_scheme }} gradient">
-          <div class="popup-container">
-              <div class="popup-outer popup-outer-image--{{ section.settings.image_position }}">
-                  {%- if section.settings.image -%}
-                    <div class="notification-banner__image" {%- if section.settings.image_position == 'top' or section.settings.image_position == 'bottom' -%}style="padding-bottom: {{ 100.0 | divided_by: section.settings.image.aspect_ratio }}%;"{%- endif -%}>
-                      <img
-                          srcset="
-                              {%- if section.settings.image.width >= 375 -%}{{ section.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
-                              {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-                              {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
-                          "
-                          sizes="100vw"
-                          src="{{ section.settings.image | image_url: width: 1500 }}"
-                          loading="lazy"
-                          alt="{{ section.settings.image.alt | escape }}"
-                          width="{{ section.settings.image.width }}"
-                          height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
-                          style="object-fit: {{ section.settings.image_fit }}"
-                      >
-                    </div>
-                  {%- endif -%}
-                  <div class="notification-banner__content">
-                      <div class="popup-wraper-text">
-                        {%- if section.settings.heading -%}
-                          <h2 class="popup-heading">{{ section.settings.heading }}</h2>
-                        {%- endif -%}
-                        {%- if section.settings.text -%}
-                          {{ section.settings.text }}
-                        {%- endif -%}
-                      </div>
-                      {%- if section.settings.show_button -%}
-                        {%- if section.settings.button_action == 'accept' -%}
-                          <button class="button popup-button popup-accept">
-                            <span>{{ section.settings.button_label }}</span>
-                          </button>
-                        {%- else -%}
-                          <a {% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}" {% endif %} target="_blank" class="button popup-button button--primary">
-                            {{ section.settings.button_label }}
-                          </a>
-                        {%- endif -%}
-                      {%- endif -%}
-                      {%- if section.settings.show_close_button -%}
-                        <button type="button" class="link modal-close-button popup-close" aria-label="Close">
-                          {%- render 'icon-close' -%}
-                        </button>
-                      {%- endif -%}
-                  </div>
-              </div>
+    <div class='popup-wrap content-container color-{{ section.settings.color_scheme }} gradient'>
+      <div class='popup-container'>
+        <div class='popup-outer popup-outer-image--{{ section.settings.image_position }}'>
+          {%- if section.settings.image -%}
+            <div
+              class='notification-banner__image'
+              {%- if section.settings.image_position == 'top' or section.settings.image_position == 'bottom' -%}
+                style='padding-bottom: {{ 100.0 | divided_by: section.settings.image.aspect_ratio }}%;'
+              {%- endif -%}
+            >
+              <img
+                srcset='
+                  {%- if section.settings.image.width >= 375 -%}{{ section.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
+                  {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                  {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+                '
+                sizes='100vw'
+                src='{{ section.settings.image | image_url: width: 1500 }}'
+                loading='lazy'
+                alt='{{ section.settings.image.alt | escape }}'
+                width='{{ section.settings.image.width }}'
+                height='{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}'
+                style='object-fit: {{ section.settings.image_fit }}'
+              >
+            </div>
+          {%- endif -%}
+          <div class='notification-banner__content'>
+            <div class='popup-wraper-text'>
+              {%- if section.settings.heading -%}
+                <h2 class='popup-heading'>{{ section.settings.heading }}</h2>
+              {%- endif -%}
+              {%- if section.settings.text -%}
+                {{ section.settings.text }}
+              {%- endif -%}
+            </div>
+            {%- if section.settings.show_button -%}
+              {%- if section.settings.button_action == 'accept' -%}
+                <button class='button popup-button popup-accept'>
+                  <span>{{ section.settings.button_label }}</span>
+                </button>
+              {%- else -%}
+                <a
+                  {% if section.settings.button_link == blank %}
+                    role='link' aria-disabled='true'
+                  {% else %}
+                    href='{{ section.settings.button_link }}'
+                  {% endif %}
+                  target='_blank'
+                  class='button popup-button button--primary'
+                >
+                  {{ section.settings.button_label }}
+                </a>
+              {%- endif -%}
+            {%- endif -%}
+            {%- if section.settings.show_close_button -%}
+              <button type='button' class='link modal-close-button popup-close' aria-label='Close'>
+                {%- render 'icon-close' -%}
+              </button>
+            {%- endif -%}
           </div>
+        </div>
       </div>
+    </div>
   </div>
   {%- if section.settings.show_overlay -%}
-    <div class="popup-overlay"></div>
+    <div class='popup-overlay'></div>
   {%- endif -%}
 {%- endif -%}
 
@@ -147,7 +161,7 @@
     {
       "type": "richtext",
       "id": "text",
-      "label": "t:sections.popup.settings.text.label" 
+      "label": "t:sections.popup.settings.text.label"
     },
     {
       "type": "checkbox",
@@ -458,33 +472,33 @@
       "info": "t:sections.popup.settings.show_on_all.info"
     },
     {
-        "type": "select", 
-        "id": "color_scheme",
-        "options": [
-          {
-            "value": "accent-1",
-            "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__1.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__2.label"
-          },
-          {
-            "value": "accent-3",
-            "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__3.label"
-          },
-          {
-            "value": "background-1",
-            "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__4.label"
-          },
-          {
-            "value": "background-2",
-            "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__5.label"
-          }
-        ],
-        "default": "accent-1",
-        "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.label"
-      }
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__2.label"
+        },
+        {
+          "value": "accent-3",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__3.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__4.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__5.label"
+        }
+      ],
+      "default": "accent-1",
+      "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.label"
+    }
   ],
   "presets": [
     {
@@ -492,9 +506,7 @@
     }
   ],
   "enabled_on": {
-    "groups": [
-      "custom.overlay"
-    ]
+    "groups": ["custom.overlay"]
   }
 }
 {% endschema %}

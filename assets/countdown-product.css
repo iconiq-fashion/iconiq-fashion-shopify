@@ -27,7 +27,7 @@
 .count_head {
   background: transparent;
 }
-.count_head .link svg{
+.count_head .link svg {
   transition: none;
 }
 .count_pro .heading {
@@ -72,8 +72,8 @@
   width: 18px;
   height: 18px;
 }
-.count_pro .product-form .button:hover svg{
-  fill: rgb(var(--color-background))
+.count_pro .product-form .button:hover svg {
+  fill: rgb(var(--color-background));
 }
 .count_head {
   margin-bottom: 60px;
@@ -96,7 +96,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px
+  gap: 20px;
 }
 .count_timer .time {
   background: rgba(var(--color-foreground));
@@ -112,7 +112,7 @@
 }
 .count_timer .count {
   font-size: calc(var(--font-body-scale) * 24px);
-  font-weight: var(--font-body-weight-semibold)
+  font-weight: var(--font-body-weight-semibold);
 }
 .count_timer span {
   display: block;
@@ -158,19 +158,19 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .count_pro .grid--3-col-tablet .grid__item  {
+  .count_pro .grid--3-col-tablet .grid__item {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
     max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  .count_pro .grid--3-col-tablet .grid__item  {
+  .count_pro .grid--3-col-tablet .grid__item {
     width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
     max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
   }
 }
 @media (max-width: 575px) {
-  .count_pro .grid--3-col-tablet .grid__item  {
+  .count_pro .grid--3-col-tablet .grid__item {
     width: 100%;
     max-width: 100%;
   }

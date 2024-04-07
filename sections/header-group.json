@@ -8,14 +8,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Add Announcement\/Promotion Here",
+            "text": "Add Announcement/Promotion Here",
             "link": ""
           }
         },
         "1ec10fdf-be69-4f31-94ae-df0ce5067464": {
           "type": "announcement",
           "settings": {
-            "text": "Add Announcement\/Promotion Here",
+            "text": "Add Announcement/Promotion Here",
             "link": ""
           }
         }
@@ -24,9 +24,7 @@
         "announcement-bar-0",
         "1ec10fdf-be69-4f31-94ae-df0ce5067464"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "show_home_only": false,
         "show_social": true,
@@ -43,7 +41,7 @@
       "settings": {
         "logo_position": "top-center",
         "color_scheme": "background-1",
-        "logo": "shopify:\/\/shop_images\/11.png",
+        "logo": "shopify://shop_images/11.png",
         "logo_width": 250,
         "mobile_logo_width": 170,
         "show_stxt": "show_siconinr",
@@ -65,8 +63,5 @@
       }
     }
   },
-  "order": [
-    "announcement-bar",
-    "header"
-  ]
+  "order": ["announcement-bar", "header"]
 }

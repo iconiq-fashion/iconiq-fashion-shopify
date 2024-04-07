@@ -12,7 +12,7 @@
 .product__xr-button[data-shopify-xr-hidden] {
   visibility: hidden;
 }
-#wbquickview .product__xr-button[data-shopify-xr-hidden]{
+#wbquickview .product__xr-button[data-shopify-xr-hidden] {
   display: none;
 }
 .shopify-design-mode .product__xr-button[data-shopify-xr-hidden] {

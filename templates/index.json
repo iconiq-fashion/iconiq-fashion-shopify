@@ -6,12 +6,12 @@
         "01e1dddc-e334-4334-9475-16162d50ee67": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1316_16x9_NO_LOGOS_WEB.jpg",
+            "image": "shopify://shop_images/IMG_1316_16x9_NO_LOGOS_WEB.jpg",
             "hcaption": "",
             "heading": "",
             "button_h_upp": true,
             "heading_size": "large",
-            "heading_image": "shopify:\/\/shop_images\/Red_Transparent.png",
+            "heading_image": "shopify://shop_images/Red_Transparent.png",
             "heading_image_size": 60,
             "subheading": "",
             "subheadingtext": "",
@@ -29,9 +29,7 @@
           }
         }
       },
-      "block_order": [
-        "01e1dddc-e334-4334-9475-16162d50ee67"
-      ],
+      "block_order": ["01e1dddc-e334-4334-9475-16162d50ee67"],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -48,9 +46,7 @@
     },
     "7164a463-55ea-46ef-a91a-8c3f3dd268ef": {
       "type": "featured-collection",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Now Trending",
         "heading_size": "h0",
@@ -106,8 +102,7 @@
         },
         "price_y3Jb9X": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_ycizU3": {
           "type": "variant_picker",
@@ -118,8 +113,7 @@
         },
         "quantity_selector_iRpyCF": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_RYAR3F": {
           "type": "buy_buttons",
@@ -163,12 +157,12 @@
         "slide_pft3UV": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1390_16x9_NO_LOGOS_WEB.jpg",
+            "image": "shopify://shop_images/IMG_1390_16x9_NO_LOGOS_WEB.jpg",
             "hcaption": "",
             "heading": "",
             "button_h_upp": true,
             "heading_size": "large",
-            "heading_image": "shopify:\/\/shop_images\/GOLDEN.png",
+            "heading_image": "shopify://shop_images/GOLDEN.png",
             "heading_image_size": 40,
             "subheading": "",
             "subheadingtext": "",
@@ -186,9 +180,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_pft3UV"
-      ],
+      "block_order": ["slide_pft3UV"],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
