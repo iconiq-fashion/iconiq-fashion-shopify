@@ -7,11 +7,17 @@
 {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  .featured-product {
+    padding: {{ section.settings.internal_padding }}px;
+  }
   .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
   }
   @media screen and (max-width: 991px) {
+      .featured-product {
+          padding: {{ section.settings.internal_padding | times: 0.5 | round: 0  }}px;
+      }
       .section-{{ section.id }}-padding {
           padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
           padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
@@ -42,8 +48,8 @@
 
 <section class='wbfeatp color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}'>
   <div class='{% if section.settings.product == blank %}blank_image{% endif %} page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}'>
-    <div style='display:flex;flex-direction:column;' class='featured-product color-{{ section.settings.color_scheme }}'>
-      <h1 class='heading'>BE ICONIQ</h1>
+    <div class='featured-product color-{{ section.settings.color_scheme }}'>
+      <h1 class='heading'>{{ section.settings.heading }}</h1>
       <div class='product--{{ section.settings.gallery_layout }} product--small  product grid grid--1-col gradient {% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 or section.settings.product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}'>
         <div class='grid__item product__media-wrapper wbproleftimg {% if section.settings.mobile_thumbnails == 'show' %}mobileshowthumb {% else %} mobilehidethumb {% endif %}'>
           <media-gallery
@@ -852,11 +858,6 @@
       ]
     },
     {
-      "type": "heading",
-      "name": "Heading",
-      "limit": 1
-    },
-    {
       "type": "title",
       "name": "t:sections.featured-product.blocks.title.name",
       "limit": 1,
@@ -1089,10 +1090,25 @@
       "label": "t:sections.all.colors.label"
     },
     {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
       "type": "checkbox",
       "id": "secondary_background",
       "default": false,
       "label": "t:sections.featured-product.settings.secondary_background.label"
+    },
+    {
+      "type": "range",
+      "id": "internal_padding",
+      "info": "Use this to control internal padding when the secondary background is enabled",
+      "min": 30,
+      "max": 100,
+      "default": 60,
+      "unit": "px",
+      "label": "Internal Padding"
     },
     {
       "type": "header",

@@ -10,9 +10,12 @@
   height: auto;
   width: 100%;
 }
-.background-secondary .featured-product {
-  padding: 2.5rem;
+
+.featured-product {
+  display: flex;
+  flex-direction: column;
 }
+
 .product__view-details {
   display: block;
   text-decoration: none;
@@ -53,11 +56,6 @@
   max-width: 50% !important;
   width: 50% !important;
 }
-@media screen and (min-width: 768px) {
-  .background-secondary .featured-product {
-    padding: 5rem;
-  }
-}
 @media screen and (min-width: 992px) {
   .background-secondary
     .featured-product:not(.product--no-media)
@@ -65,7 +63,6 @@
     padding: 0 0 0 5rem;
   }
   .background-secondary .featured-product {
-    padding: 6rem 7rem;
     position: relative;
     z-index: 1;
   }
