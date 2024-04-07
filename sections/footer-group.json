@@ -1,1 +1,72 @@
-{"type":"footer","name":"footer group","sections":{"footer":{"type":"footer","blocks":{"03523ab4-ebb1-44e2-99ee-52b7929b3852":{"type":"text","settings":{"footer-logo_width":150,"heading":"Talk about your business","subtext":"<p>The main goal of food packaging is to provide a practical means of protecting and delivering food goods.<\/p>","social_heading":"","show_social":true}},"footer-0":{"type":"link_list","settings":{"heading":"Quick links","menu":"footer"}},"622cafc8-ba59-4cc5-bc24-218d9f73ea7a":{"type":"link_list","settings":{"heading":"Quick links","menu":"footer"}},"8c41e77e-2d98-426a-ae31-1508c541356b":{"type":"textarea","settings":{"heading":"Contact us","contsubtext":"<p>Write your store address<\/p>","footer_address":"Write your store address","footer_contact_no":"123 456 789","footer_contact_id":"your@email.com"}}},"block_order":["03523ab4-ebb1-44e2-99ee-52b7929b3852","footer-0","622cafc8-ba59-4cc5-bc24-218d9f73ea7a","8c41e77e-2d98-426a-ae31-1508c541356b"],"settings":{"wbfoot_bgcolor":"#f5f5f5","wbfoot_color":"#121212","wbfoot_hcolor":"#555555","upper_fhead":true,"enable_newsletter":true,"color_scheme":"accent-3","newsheading":"Newsletter","newssub":"<p>Use this text to share information about brand with customers.<\/p>","enable_country_selector":true,"enable_language_selector":true,"langcur_style":"solid","enable_follow_on_shop":true,"payment_enable":true,"show_copyright":true,"scroll-to-top":true,"margin_top":60,"padding_top":60,"padding_bottom":60}}},"order":["footer"]}
+{
+  "type": "footer",
+  "name": "footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "03523ab4-ebb1-44e2-99ee-52b7929b3852": {
+          "type": "text",
+          "settings": {
+            "footer-logo_width": 150,
+            "heading": "Talk about your business",
+            "subtext": "<p>The main goal of food packaging is to provide a practical means of protecting and delivering food goods.</p>",
+            "social_heading": "",
+            "show_social": true
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "622cafc8-ba59-4cc5-bc24-218d9f73ea7a": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "8c41e77e-2d98-426a-ae31-1508c541356b": {
+          "type": "textarea",
+          "settings": {
+            "heading": "Contact us",
+            "contsubtext": "<p>Write your store address</p>",
+            "footer_address": "Write your store address",
+            "footer_contact_no": "123 456 789",
+            "footer_contact_id": "your@email.com"
+          }
+        }
+      },
+      "block_order": [
+        "03523ab4-ebb1-44e2-99ee-52b7929b3852",
+        "footer-0",
+        "622cafc8-ba59-4cc5-bc24-218d9f73ea7a",
+        "8c41e77e-2d98-426a-ae31-1508c541356b"
+      ],
+      "settings": {
+        "wbfoot_bgcolor": "#f5f5f5",
+        "wbfoot_color": "#121212",
+        "wbfoot_hcolor": "#555555",
+        "upper_fhead": true,
+        "enable_newsletter": true,
+        "color_scheme": "accent-3",
+        "newsheading": "Newsletter",
+        "newssub": "<p>Use this text to share information about brand with customers.</p>",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "langcur_style": "solid",
+        "enable_follow_on_shop": true,
+        "payment_enable": true,
+        "show_copyright": true,
+        "scroll-to-top": true,
+        "margin_top": 0,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": ["footer"]
+}

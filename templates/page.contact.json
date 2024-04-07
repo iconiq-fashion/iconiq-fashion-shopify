@@ -1,1 +1,43 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":16,"padding_bottom":0}},"1659966487c60c9218":{"type":"image-banner","blocks":{"1659966487083b9e0d-0":{"type":"heading","settings":{"heading":"Contact us","heading_size":"large"}}},"block_order":["1659966487083b9e0d-0"],"disabled":true,"settings":{"image_overlay_opacity":40,"image_height":"medium","adapt_height_first_image":true,"desktop_content_position":"middle-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true,"padding_top":0,"padding_bottom":0}},"form":{"type":"contact-form","settings":{"enable_gmap":true,"contact_iframe_code":"<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d229929.1760314769!2d-80.36954411689972!3d25.78234042826896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL%2C%20USA!5e0!3m2!1sen!2sin!4v1591270567549!5m2!1sen!2sin\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\" width=\"1000\" height=\"450\" frameborder=\"0\"><\/iframe>","padding_top":0,"padding_bottom":0}}},"order":["main","1659966487c60c9218","form"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": { "padding_top": 16, "padding_bottom": 0 }
+    },
+    "1659966487c60c9218": {
+      "type": "image-banner",
+      "blocks": {
+        "1659966487083b9e0d-0": {
+          "type": "heading",
+          "settings": { "heading": "Contact us", "heading_size": "large" }
+        }
+      },
+      "block_order": ["1659966487083b9e0d-0"],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "enable_gmap": true,
+        "contact_iframe_code": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229929.1760314769!2d-80.36954411689972!3d25.78234042826896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL%2C%20USA!5e0!3m2!1sen!2sin!4v1591270567549!5m2!1sen!2sin\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\" width=\"1000\" height=\"450\" frameborder=\"0\"></iframe>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": ["main", "1659966487c60c9218", "form"]
+}

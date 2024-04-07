@@ -19,7 +19,7 @@
   color: rgb(var(--color-foreground));
 }
 .list-social__link:hover {
-  color: rgb(var(--color-foreground),0.8);
+  color: rgb(var(--color-foreground), 0.8);
 }
 .announce_item .list-social__link {
   padding: 10px 13px;
