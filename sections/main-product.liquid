@@ -444,8 +444,6 @@
                     {% endif %}
                   </a>
                 </div>
-
-              {%- when 'stock_countdown' -%}
                 {% comment %} Inventory tracking on product page {% endcomment %}
                 {% assign current_variant = product.selected_or_first_available_variant %}
                 {%- liquid
