@@ -86,12 +86,6 @@
     "featured_product_NmLdzN": {
       "type": "featured-product",
       "blocks": {
-        "text_f93Mqp": {
-          "type": "text",
-          "settings": {
-            "text": "BE ICONIQ"
-          }
-        },
         "title_YDbnRi": {
           "type": "title",
           "settings": {
@@ -135,7 +129,6 @@
         }
       },
       "block_order": [
-        "text_f93Mqp",
         "title_YDbnRi",
         "text_3jqfNW",
         "price_y3Jb9X",
@@ -172,7 +165,7 @@
             "heading_image_size": 40,
             "subheading": "",
             "subheadingtext": "",
-            "button_label": "Get the look",
+            "button_label": "Shop collection",
             "link": "",
             "button_style": "solid",
             "button_size": "medium-btn",
