@@ -1,8 +1,0 @@
-{
-  "parent": "cart.json",
-  "context": {
-    "market": "nz"
-  },
-  "sections": {
-  }
-}

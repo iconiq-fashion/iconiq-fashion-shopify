@@ -4,12 +4,5 @@
     "market": "nz"
   },
   "sections": {
-    "footer": {
-      "settings": {
-        "margin_top": 0
-      },
-      "blocks": {
-      }
-    }
   }
 }
