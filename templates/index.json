@@ -83,75 +83,6 @@
         "padding_bottom": 60
       }
     },
-    "featured_product_NmLdzN": {
-      "type": "featured-product",
-      "blocks": {
-        "title_YDbnRi": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "text_3jqfNW": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}"
-          }
-        },
-        "price_y3Jb9X": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_ycizU3": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "show_colorswatch": true
-          }
-        },
-        "quantity_selector_iRpyCF": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons_RYAR3F": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "share_e3RPrY": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "title_YDbnRi",
-        "text_3jqfNW",
-        "price_y3Jb9X",
-        "variant_picker_ycizU3",
-        "quantity_selector_iRpyCF",
-        "buy_buttons_RYAR3F",
-        "share_e3RPrY"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "product": "one-in-a-million-gold-hand-bag",
-        "color_scheme": "accent-2",
-        "heading": "Be Iconiq",
-        "secondary_background": true,
-        "internal_padding": 60,
-        "gallery_layout": "thumbnail_slider",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "mobile_thumbnails": "show",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "slideshow_WN37fP": {
       "type": "slideshow",
       "blocks": {
@@ -197,12 +128,82 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "featured_product_NmLdzN": {
+      "type": "featured-product",
+      "blocks": {
+        "title_YDbnRi": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_3jqfNW": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}"
+          }
+        },
+        "price_y3Jb9X": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_ycizU3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_colorswatch": true
+          }
+        },
+        "quantity_selector_iRpyCF": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_RYAR3F": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "share_e3RPrY": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title_YDbnRi",
+        "text_3jqfNW",
+        "price_y3Jb9X",
+        "variant_picker_ycizU3",
+        "quantity_selector_iRpyCF",
+        "buy_buttons_RYAR3F",
+        "share_e3RPrY"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "product": "one-in-a-million-gold-hand-bag",
+        "color_scheme": "accent-2",
+        "heading": "Be Iconiq",
+        "secondary_background": true,
+        "internal_padding": 60,
+        "gallery_layout": "thumbnail_slider",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "mobile_thumbnails": "show",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "1644650669e1107d39",
     "7164a463-55ea-46ef-a91a-8c3f3dd268ef",
-    "featured_product_NmLdzN",
-    "slideshow_WN37fP"
+    "slideshow_WN37fP",
+    "featured_product_NmLdzN"
   ]
 }
