@@ -4,5 +4,14 @@
     "market": "nz"
   },
   "sections": {
+    "product-grid": {
+      "settings": {
+        "show_variants": true,
+        "picker_type": "button",
+        "enable_listdesc": true
+      },
+      "blocks": {
+      }
+    }
   }
 }
