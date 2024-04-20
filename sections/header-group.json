@@ -8,14 +8,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Add Announcement/Promotion Here",
+            "text": "Add Announcement\/Promotion Here",
             "link": ""
           }
         },
         "1ec10fdf-be69-4f31-94ae-df0ce5067464": {
           "type": "announcement",
           "settings": {
-            "text": "Add Announcement/Promotion Here",
+            "text": "Add Announcement\/Promotion Here",
             "link": ""
           }
         }
@@ -24,7 +24,9 @@
         "announcement-bar-0",
         "1ec10fdf-be69-4f31-94ae-df0ce5067464"
       ],
-      "custom_css": [],
+      "custom_css": [
+
+      ],
       "settings": {
         "show_home_only": false,
         "show_social": true,
@@ -38,10 +40,45 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "megamenu_gallery_i4EWYb": {
+          "type": "megamenu-gallery",
+          "disabled": true,
+          "settings": {
+            "menuname": "Dresses",
+            "showsubmenu": true,
+            "image_height": "small",
+            "wb1_img": "shopify:\/\/shop_images\/IMG_1618_WEB.jpg",
+            "wb1_link": "shopify:\/\/collections\/maxi-dress",
+            "wb1_text": "Maxi Dresses",
+            "wb2_img": "shopify:\/\/shop_images\/IMG_1685.jpg",
+            "wb2_link": "shopify:\/\/collections\/mini-dress",
+            "wb2_text": "Mini Dresses",
+            "wb3_link": "",
+            "wb3_text": "",
+            "wb4_link": "",
+            "wb4_text": ""
+          }
+        },
+        "megamenu_product_DmpmhF": {
+          "type": "megamenu-product",
+          "settings": {
+            "menuname": "Maxi Dress",
+            "showsubmenu": true,
+            "collection": "maxi-dress",
+            "image_ratio": "adapt",
+            "products_to_show": 6
+          }
+        }
+      },
+      "block_order": [
+        "megamenu_gallery_i4EWYb",
+        "megamenu_product_DmpmhF"
+      ],
       "settings": {
         "logo_position": "top-center",
         "color_scheme": "background-1",
-        "logo": "shopify://shop_images/11.png",
+        "logo": "shopify:\/\/shop_images\/11.png",
         "logo_width": 250,
         "mobile_logo_width": 170,
         "show_stxt": "show_siconinr",
@@ -63,5 +100,8 @@
       }
     }
   },
-  "order": ["announcement-bar", "header"]
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
 }
