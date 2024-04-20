@@ -4,5 +4,12 @@
     "market": "nz"
   },
   "sections": {
+    "product-recommendations": {
+      "settings": {
+        "show_vendor": false
+      },
+      "blocks": {
+      }
+    }
   }
 }
