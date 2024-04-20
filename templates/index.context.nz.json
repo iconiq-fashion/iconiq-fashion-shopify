@@ -14,6 +14,22 @@
           }
         }
       }
+    },
+    "featured_product_NmLdzN": {
+      "settings": {
+      },
+      "blocks": {
+        "quantity_selector_iRpyCF": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_RYAR3F": {
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      }
     }
   }
 }
