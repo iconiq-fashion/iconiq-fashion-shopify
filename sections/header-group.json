@@ -43,6 +43,7 @@
       "blocks": {
         "megamenu_gallery_G6BPEG": {
           "type": "megamenu-gallery",
+          "disabled": true,
           "settings": {
             "menuname": "Dresses",
             "showsubmenu": true,
