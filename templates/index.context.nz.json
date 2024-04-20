@@ -4,5 +4,16 @@
     "market": "nz"
   },
   "sections": {
+    "1644650669e1107d39": {
+      "settings": {
+      },
+      "blocks": {
+        "01e1dddc-e334-4334-9475-16162d50ee67": {
+          "settings": {
+            "link": "shopify:\/\/collections\/all"
+          }
+        }
+      }
+    }
   }
 }
