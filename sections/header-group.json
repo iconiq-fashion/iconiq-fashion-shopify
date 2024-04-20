@@ -41,39 +41,25 @@
     "header": {
       "type": "header",
       "blocks": {
-        "megamenu_gallery_i4EWYb": {
+        "megamenu_gallery_G6BPEG": {
           "type": "megamenu-gallery",
-          "disabled": true,
           "settings": {
             "menuname": "Dresses",
             "showsubmenu": true,
             "image_height": "small",
-            "wb1_img": "shopify:\/\/shop_images\/IMG_1618_WEB.jpg",
-            "wb1_link": "shopify:\/\/collections\/maxi-dress",
-            "wb1_text": "Maxi Dresses",
-            "wb2_img": "shopify:\/\/shop_images\/IMG_1685.jpg",
-            "wb2_link": "shopify:\/\/collections\/mini-dress",
-            "wb2_text": "Mini Dresses",
+            "wb1_link": "",
+            "wb1_text": "",
+            "wb2_link": "",
+            "wb2_text": "",
             "wb3_link": "",
             "wb3_text": "",
             "wb4_link": "",
             "wb4_text": ""
           }
-        },
-        "megamenu_product_DmpmhF": {
-          "type": "megamenu-product",
-          "settings": {
-            "menuname": "Maxi Dress",
-            "showsubmenu": true,
-            "collection": "maxi-dress",
-            "image_ratio": "adapt",
-            "products_to_show": 6
-          }
         }
       },
       "block_order": [
-        "megamenu_gallery_i4EWYb",
-        "megamenu_product_DmpmhF"
+        "megamenu_gallery_G6BPEG"
       ],
       "settings": {
         "logo_position": "top-center",
