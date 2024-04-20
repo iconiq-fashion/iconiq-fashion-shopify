@@ -41,9 +41,8 @@
     "header": {
       "type": "header",
       "blocks": {
-        "megamenu_gallery_G6BPEG": {
+        "megamenu_gallery_9ngpHA": {
           "type": "megamenu-gallery",
-          "disabled": true,
           "settings": {
             "menuname": "Dresses",
             "showsubmenu": true,
@@ -60,7 +59,7 @@
         }
       },
       "block_order": [
-        "megamenu_gallery_G6BPEG"
+        "megamenu_gallery_9ngpHA"
       ],
       "settings": {
         "logo_position": "top-center",
