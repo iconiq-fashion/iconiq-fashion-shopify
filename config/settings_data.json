@@ -122,7 +122,7 @@
     "upsell_to_show": 2,
     "cart_drawer_collection": "",
     "show_cartpayment": true,
-    "upsellp": true,
+    "upsellp": false,
     "upsellpempty": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
     "checkout_accent_color": "#121212",
