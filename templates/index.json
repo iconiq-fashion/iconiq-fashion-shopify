@@ -83,52 +83,6 @@
         "padding_bottom": 60
       }
     },
-    "slideshow_WN37fP": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_pft3UV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1390_16x9_NO_LOGOS_WEB.jpg",
-            "hcaption": "",
-            "heading": "",
-            "button_h_upp": true,
-            "heading_size": "large",
-            "heading_image": "shopify:\/\/shop_images\/BE_ICONIQ.png",
-            "heading_image_size": 47,
-            "subheading": "",
-            "subheadingtext": "",
-            "button_label": "Shop collection",
-            "link": "",
-            "button_style": "solid",
-            "button_size": "medium-btn",
-            "button_txt_upp": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "accent-3",
-            "text_alignment_mobile": "left"
-          }
-        }
-      },
-      "block_order": [
-        "slide_pft3UV"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "pagicolor": "#ffffff",
-        "pagination_alignment": "center",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "featured_product_NmLdzN": {
       "type": "featured-product",
       "blocks": {
@@ -184,6 +138,7 @@
         "buy_buttons_RYAR3F",
         "share_e3RPrY"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "product": "one-in-a-million-gold-hand-bag",
@@ -198,12 +153,103 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_6UB39C": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7wmKyf": {
+          "type": "heading",
+          "settings": {
+            "storytitle": "Everything Iconiq",
+            "heading_size": "h0"
+          }
+        },
+        "caption_p6CQXG": {
+          "type": "caption",
+          "settings": {
+            "storysubtitle": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_zhYDGQ": {
+          "type": "button",
+          "settings": {
+            "btntxt": "SHOP THE LOOK",
+            "link": "",
+            "button_style": "outline",
+            "button_size": "bs_large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7wmKyf",
+        "caption_p6CQXG",
+        "button_zhYDGQ"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/bag-cropped.png",
+        "image_width": "50%",
+        "image_position": "imgpleft",
+        "imgalign": "imgalignmiddle",
+        "image_height": "adapt",
+        "Horizontal_alignment": "center",
+        "mobile_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "slideshow_WN37fP": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_pft3UV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1390_16x9_NO_LOGOS_WEB.jpg",
+            "hcaption": "",
+            "heading": "",
+            "button_h_upp": true,
+            "heading_size": "large",
+            "heading_image": "shopify:\/\/shop_images\/BE_ICONIQ.png",
+            "heading_image_size": 47,
+            "subheading": "",
+            "subheadingtext": "",
+            "button_label": "Shop collection",
+            "link": "",
+            "button_style": "solid",
+            "button_size": "medium-btn",
+            "button_txt_upp": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "accent-3",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_pft3UV"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "pagicolor": "#ffffff",
+        "pagination_alignment": "center",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "1644650669e1107d39",
     "7164a463-55ea-46ef-a91a-8c3f3dd268ef",
-    "slideshow_WN37fP",
-    "featured_product_NmLdzN"
+    "featured_product_NmLdzN",
+    "image_with_text_6UB39C",
+    "slideshow_WN37fP"
   ]
 }
