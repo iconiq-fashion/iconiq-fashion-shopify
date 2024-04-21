@@ -111,7 +111,7 @@
     "cart_type": "drawer",
     "cart_bg": "accent-2",
     "wb_carticon": "wb_shopbag",
-    "wb_cartnumber": "wb_shopqtytotal",
+    "wb_cartnumber": "wb_shopqty",
     "show_vendor": false,
     "show_cart_note": false,
     "wbenable_ship": true,
