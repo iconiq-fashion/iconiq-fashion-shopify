@@ -51,6 +51,7 @@
         "color_schememenu": "background-1",
         "color_dropmenu": "background-1",
         "menu": "main-menu",
+        "mobile-menu": "mobile-menu",
         "secmenu": "",
         "contact_icon": "map_pin",
         "contact_text": "",
