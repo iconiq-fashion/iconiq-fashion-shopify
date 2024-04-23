@@ -94,7 +94,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.product_features | metafield_tag }}<\/p>",
             "page": "",
             "icon": "none"
           }
@@ -103,7 +103,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Fabric & Care",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.fabric_care | metafield_tag }}<\/p>",
             "page": "",
             "icon": "none"
           }
@@ -112,7 +112,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Fit & Sizing",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.fit_sizing | metafield_tag }}<\/p>",
             "page": "",
             "icon": "none"
           }
@@ -121,7 +121,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Delivery & Returns",
-            "content": "",
+            "content": "<h1>Delivery<\/h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales metus vitae elit tempor molestie. Curabitur sagittis cursus aliquet. Suspendisse dignissim erat sit amet nisl fermentum, ac accumsan felis mattis.<\/p><h1>Returns<\/h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales metus vitae elit tempor molestie. Curabitur sagittis cursus aliquet. Suspendisse dignissim erat sit amet nisl fermentum, ac accumsan felis mattis.<\/p>",
             "page": "",
             "icon": "none"
           }
