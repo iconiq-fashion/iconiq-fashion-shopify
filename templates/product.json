@@ -116,15 +116,6 @@
             "page": "",
             "icon": "none"
           }
-        },
-        "collapsible_tab_3ppb6G": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Delivery & Returns",
-            "content": "<h1>Delivery<\/h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales metus vitae elit tempor molestie. Curabitur sagittis cursus aliquet. Suspendisse dignissim erat sit amet nisl fermentum, ac accumsan felis mattis.<\/p><h1>Returns<\/h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales metus vitae elit tempor molestie. Curabitur sagittis cursus aliquet. Suspendisse dignissim erat sit amet nisl fermentum, ac accumsan felis mattis.<\/p>",
-            "page": "",
-            "icon": "none"
-          }
         }
       },
       "block_order": [
@@ -141,8 +132,7 @@
         "27036c39-0467-41e3-84cb-e6b47122d064",
         "collapsible_tab_mtDFkT",
         "collapsible_tab_XpedVX",
-        "collapsible_tab_UgkLyj",
-        "collapsible_tab_3ppb6G"
+        "collapsible_tab_UgkLyj"
       ],
       "settings": {
         "enable_sticky_info": true,
