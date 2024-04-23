@@ -94,7 +94,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
-            "content": "<p>{{ product.metafields.custom.product_features | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.features | metafield_tag }}",
             "page": "",
             "icon": "none"
           }
