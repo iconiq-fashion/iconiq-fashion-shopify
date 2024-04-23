@@ -89,6 +89,42 @@
             "product_list_limit": 3,
             "products_per_page": 2
           }
+        },
+        "collapsible_tab_mtDFkT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "content": "",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_XpedVX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fabric & Care",
+            "content": "",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_UgkLyj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fit & Sizing",
+            "content": "",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_3ppb6G": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery & Returns",
+            "content": "",
+            "page": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
@@ -102,7 +138,11 @@
         "3293aa46-ec0c-4c30-b783-8c210ee66f5e",
         "53d1b536-e8c6-416b-81ae-5537d48a8356",
         "description",
-        "27036c39-0467-41e3-84cb-e6b47122d064"
+        "27036c39-0467-41e3-84cb-e6b47122d064",
+        "collapsible_tab_mtDFkT",
+        "collapsible_tab_XpedVX",
+        "collapsible_tab_UgkLyj",
+        "collapsible_tab_3ppb6G"
       ],
       "settings": {
         "enable_sticky_info": true,
