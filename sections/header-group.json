@@ -40,6 +40,27 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "megamenu_gallery_GXTeDP": {
+          "type": "megamenu-gallery",
+          "settings": {
+            "menuname": "dresses",
+            "showsubmenu": true,
+            "image_height": "small",
+            "wb1_link": "",
+            "wb1_text": "",
+            "wb2_link": "",
+            "wb2_text": "",
+            "wb3_link": "",
+            "wb3_text": "",
+            "wb4_link": "",
+            "wb4_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "megamenu_gallery_GXTeDP"
+      ],
       "settings": {
         "logo_position": "top-center",
         "color_scheme": "background-1",
