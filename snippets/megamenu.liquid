@@ -251,13 +251,13 @@
           </div>
 
         {% when 'megamenu-gallery' %}
-          <div class='{%- for i in (1..4) limit: 1 -%} {% capture gallerytext %}wb{{ i }}_text{% endcapture %} {%- if block.settings[gallerytext] != blank -%} image_label {% endif %}{% endfor %}wbmenugallery grid grid--4-col-desktop grid--2-col-tablet-down image--{{ block.settings.image_height }}'>
-            {% for i in (1..4) %}
+          <div class='{%- for i in (1..block.settings.num_columns) limit: 1 -%} {% capture gallerytext %}wb{{ i }}_text{% endcapture %} {%- if block.settings[gallerytext] != blank -%} image_label {% endif %}{% endfor %} row'>
+            {% for i in (1..block.settings.num_columns) %}
               {% capture galleryimg %}wb{{ i }}_img{% endcapture %}
               {% capture gallerylink %}wb{{ i }}_link{% endcapture %}
               {% capture gallerytext %}wb{{ i }}_text{% endcapture %}
               {% if galleryimg or block.settings[gallerylink].size > 0 %}
-                <div class='wp_menu_banner grid__item text-center'>
+                <div class='wp_menu_banner col-2 text-center'>
                   {% if block.settings[gallerylink] -%}
                     <a
                       href='{{ block.settings[gallerylink] }}'
@@ -344,7 +344,7 @@
                 </div>
               {% endfor %}
             {%- else -%}
-              {% for i in (1..4) %}
+              {% for i in (1..block.settings.num_columns) %}
                 <div class='wbhblog'>
                   <div class='blog_img'>
                     {%- assign placeholder_image_index = forloop.index0 | modulo: 3 | plus: 1 -%}
