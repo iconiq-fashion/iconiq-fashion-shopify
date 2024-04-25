@@ -474,12 +474,12 @@
                                 <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                                 {% render 'icon-caret' %}
                               </summary>
-                              <div id="HeaderMenu-MenuList-{{ forloop.index }}" class="color-{{ section.settings.color_dropmenu }} gradient header__submenu list-menu list-menu--disclosure caption-large motion-reduce {% if link.links.size > 3 or displaymegamenu %}wbmenufull{% endif %}" tabindex="-1">
+                              <div id="HeaderMenu-MenuList-{{ forloop.index }}" class="color-{{ section.settings.color_dropmenu }} gradient header__submenu list-menu list-menu--disclosure caption-large motion-reduce wbmenufull" tabindex="-1">
                                   {% if assignsubmenu %}
                                       <div class="container">
                                           <div class="row">
                                               {%- for childlink in link.links -%}
-                                              <div class="{% if link.links.size == 1 %}col-12 {% elsif link.links.size == 2 %}col-6 {% elsif link.links.size == 3 %}col-4 {% else %}col-3 {% endif %}">
+                                              <div class="col-2">
                                                   <div class="wbmenuinner">
                                                   <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                                     {{ childlink.title | escape }}
@@ -518,7 +518,7 @@
                                       <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                                       {% render 'icon-caret' %}
                                     </summary>
-                                    <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="color-{{ section.settings.color_dropmenu }} gradient header__submenu list-menu list-menu--disclosure caption-large motion-reduce {% if link.links.size > 3 or displaymegamenu %}wbmenufull{% endif %}" tabindex="-1">
+                                    <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="color-{{ section.settings.color_dropmenu }} gradient header__submenu list-menu list-menu--disclosure caption-large motion-reduce wbmenufull" tabindex="-1">
                                     {% render 'megamenu', blocks: section.blocks, title: link.title %}
                                     </ul>
                                 </details>
@@ -1046,11 +1046,11 @@
                                   <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                                   {% render 'icon-caret' %}
                                 </summary>
-                                <div id="HeaderMenu-MenuList-{{ forloop.index }} " class=" color-{{ section.settings.color_dropmenu }} gradient header__submenu list-menu list-menu--disclosure caption-large motion-reduce {% if link.links.size > 3 or displaymegamenu %}wbmenufull{% endif %}" tabindex="-1">
+                                <div id="HeaderMenu-MenuList-{{ forloop.index }} " class=" color-{{ section.settings.color_dropmenu }} gradient header__submenu list-menu list-menu--disclosure caption-large motion-reduce wbmenufull" tabindex="-1">
                                         <div class="container">
                                             <div class="row">
                                                 {%- for childlink in link.links -%}
-                                                <div class="{% if link.links.size == 1 %}col-12 {% elsif link.links.size == 2 %}col-6 {% elsif link.links.size == 3 %}col-4 {% else %}col-3 {% endif %}">
+                                                <div class="col-2">
                                                     <div class="wbmenuinner">
                                                     <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                                       {{ childlink.title | escape }}
@@ -1088,7 +1088,7 @@
                                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                                         {% render 'icon-caret' %}
                                       </summary>
-                                      <div id="HeaderMenu-MenuList-{{ forloop.index }}" class="color-{{ section.settings.color_dropmenu }} gradient header__submenu list-menu list-menu--disclosure caption-large motion-reduce {% if link.links.size > 3 or displaymegamenu %}wbmenufull{% endif %}" tabindex="-1">
+                                      <div id="HeaderMenu-MenuList-{{ forloop.index }}" class="color-{{ section.settings.color_dropmenu }} gradient header__submenu list-menu list-menu--disclosure caption-large motion-reduce wbmenufull" tabindex="-1">
                                       {% render 'megamenu', blocks: section.blocks, title: link.title %}
                                       </div>
                                   </details>
@@ -2154,6 +2154,15 @@ customElements.define('sticky-header', StickyHeader);
           "type": "text",
           "id": "wb4_text",
           "label": "Label"
+        },
+        {
+          "type": "range",
+          "id": "num_columns",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "label": "Number of columns",
+          "default": 2
         }
       ]
     },
