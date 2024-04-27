@@ -4429,6 +4429,9 @@ header-drawer {
   .wbsimplemenuxs .list-menu--inline {
     column-gap: 30px;
     row-gap: 12px;
+  }
+
+  .list-menu--inline > li {
     padding: 12px 0;
   }
 }
