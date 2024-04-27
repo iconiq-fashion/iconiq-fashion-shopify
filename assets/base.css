@@ -3221,12 +3221,10 @@ details[open] > .header__icon--menu .icon-hamburger {
 @keyframes animateMenuOpenCustom {
   0% {
     opacity: 0;
-    transform: translateY(1.5rem);
   }
 
   100% {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 /* Header menu */
