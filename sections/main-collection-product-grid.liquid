@@ -5,6 +5,7 @@
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+{{ 'product-grid.css' | asset_url | stylesheet_tag }}
 <link
   rel='preload'
   href='{{ 'component-rte.css' | asset_url }}'
@@ -44,9 +45,9 @@
     {%- endif -%}
     <div class='wbsortbar{% if section.settings.filter_type == 'horizontal' or section.settings.filter_type == 'drawer' %} wbmobilefil{% endif %}'>
       <div class='wbglbtn {% if section.settings.filter_type == 'drawer' %} large-up-hide medium-hide {% endif %}'>
-        <button class='gridv wblistgridbtn active focus-inset' aria-label='grid'>{% render 'icon-gridview' %}</button>
-        <button class='listv wblistgridbtn focus-inset' aria-label='list'>{% render 'icon-listview' %}</button>
-        {% comment %} <button class="galleryv wblistgridbtn focus-inset" aria-label="galleryv">{% render 'icon-galleryview' %}</button> {% endcomment %}
+        <button class='gridv wblistgridbtn active focus-inset' aria-label='grid'>
+          {% render 'icon-gridview' %}
+        </button>
       </div>
       {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
       {%- if section.settings.filter_type == 'vertical' -%}
@@ -131,9 +132,9 @@
     <div class='{% if section.settings.filter_type == 'drawer' %}wb_cover_drover {% endif %}'>
       {% if section.settings.filter_type == 'drawer' %}
         <div class='wbglbtn small-hide '>
-          <button class='gridv wblistgridbtn active focus-inset' aria-label='grid'>{% render 'icon-gridview' %}</button>
-          <button class='listv wblistgridbtn focus-inset' aria-label='list'>{% render 'icon-listview' %}</button>
-          {% comment %} <button class="galleryv wblistgridbtn focus-inset" aria-label="galleryv">{% render 'icon-galleryview' %}</button> {% endcomment %}
+          <button class='gridv wblistgridbtn active focus-inset' aria-label='grid'>
+            {% render 'icon-gridview' %}
+          </button>
         </div>
       {% endif %}
       {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
@@ -220,15 +221,11 @@
 </div>
 
 <script>
-  // Collection Grid/List View
+  // Collection Grid View
   $(document).on('click', '.wblistgridbtn', function (e) {
     $(this).addClass('active').siblings().removeClass('active')
-    if ($(this).hasClass('listv')) {
-      $('#product-grid').addClass('product-list').removeClass('product-grid').removeClass('product-galleryv')
-    } else if ($(this).hasClass('gridv')) {
+    if ($(this).hasClass('gridv')) {
       $('#product-grid').addClass('product-grid').removeClass('product-list').removeClass('product-galleryv')
-    } else if ($(this).hasClass('galleryv')) {
-      $('#product-grid').addClass('product-galleryv').removeClass('product-list').removeClass('product-grid')
     }
   })
 </script>
