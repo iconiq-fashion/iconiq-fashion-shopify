@@ -100,15 +100,6 @@
                   {%- endfor -%}
                 {% endif %}
                 <div class='wbship'>
-                  <div class='progress' max='100'>
-                    <div
-                      class='determinate'
-                      style='width: {{ cart.total_price | times: 100 | divided_by: shipminprice | round | at_most: 100 }}%'
-                      value='{{ cart.total_price | times: 100 | divided_by: shipminprice | round: 2 | at_most: 100 }}'
-                    >
-                      {%- render 'icon-delivery' -%}
-                    </div>
-                  </div>
                   <p>
                     {% if cart.total_price >= shipminprice %}
                       {{ 'wbcustomlabel.wballtext.free_ship' | t }}
