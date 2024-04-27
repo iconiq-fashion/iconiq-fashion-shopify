@@ -6,12 +6,22 @@ class DetailsDisclosure extends HTMLElement {
       'focusout',
       this.onFocusOut.bind(this)
     )
+    this.parentElement.addEventListener('mouseover', this.open.bind(this))
+    this.parentElement.addEventListener('mouseleave', this.close.bind(this))
   }
   onFocusOut() {
     setTimeout(() => {
       if (!this.contains(document.activeElement)) this.close()
     })
   }
+
+  open() {
+    this.mainDetailsToggle.setAttribute('open', true)
+    this.mainDetailsToggle
+      .querySelector('summary')
+      .setAttribute('aria-expanded', true)
+  }
+
   close() {
     this.mainDetailsToggle.removeAttribute('open')
     this.mainDetailsToggle
