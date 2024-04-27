@@ -18,7 +18,7 @@
       "settings": {
         "products_per_page": 12,
         "columns_desktop": 3,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "display_product_type": true,
         "show_secondary_image": true,
         "show_vendor": false,
@@ -41,5 +41,8 @@
       }
     }
   },
-  "order": ["banner", "product-grid"]
+  "order": [
+    "banner",
+    "product-grid"
+  ]
 }
