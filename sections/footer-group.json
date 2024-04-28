@@ -33,9 +33,9 @@
           "type": "textarea",
           "settings": {
             "heading": "Contact us",
-            "contsubtext": "<p>Write your store address<\/p>",
-            "footer_address": "Write your store address",
-            "footer_contact_no": "123 456 789",
+            "contsubtext": "",
+            "footer_address": "",
+            "footer_contact_no": "",
             "footer_contact_id": "your@email.com"
           }
         }
