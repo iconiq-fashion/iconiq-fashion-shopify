@@ -13,6 +13,7 @@
 }
 .collection-hero__description {
   color: rgba(var(--color-foreground), 0.5);
+  text-align: center;
 }
 .collection-hero__image-container {
   align-self: stretch;
