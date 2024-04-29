@@ -16,7 +16,7 @@
             "subheading": "",
             "subheadingtext": "",
             "button_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/all",
             "button_style": "solid",
             "button_size": "medium-btn",
             "button_txt_upp": true,
@@ -174,7 +174,7 @@
           "type": "button",
           "settings": {
             "btntxt": "SHOP THE LOOK",
-            "link": "",
+            "link": "shopify:\/\/products\/everything-that-glitters-is-gold-dress",
             "button_style": "outline",
             "button_size": "bs_large"
           }
