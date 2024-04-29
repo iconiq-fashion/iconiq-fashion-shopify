@@ -16,7 +16,7 @@
             "subheading": "",
             "subheadingtext": "",
             "button_label": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/all",
             "button_style": "solid",
             "button_size": "medium-btn",
             "button_txt_upp": true,
@@ -174,7 +174,7 @@
           "type": "button",
           "settings": {
             "btntxt": "SHOP THE LOOK",
-            "link": "",
+            "link": "shopify:\/\/products\/everything-that-glitters-is-gold-dress",
             "button_style": "outline",
             "button_size": "bs_large"
           }
@@ -209,12 +209,12 @@
             "heading": "",
             "button_h_upp": true,
             "heading_size": "large",
-            "heading_image": "shopify:\/\/shop_images\/RED_CARPET.png",
-            "heading_image_size": 47,
+            "heading_image": "shopify:\/\/shop_images\/Ruby.png",
+            "heading_image_size": 25,
             "subheading": "",
             "subheadingtext": "",
             "button_label": "Shop collection",
-            "link": "",
+            "link": "shopify:\/\/collections\/mass-appeal",
             "button_style": "solid",
             "button_size": "medium-btn",
             "button_txt_upp": true,

@@ -9,8 +9,8 @@
           "type": "text",
           "settings": {
             "footer-logo_width": 150,
-            "heading": "Talk about your business",
-            "subtext": "<p>The main goal of food packaging is to provide a practical means of protecting and delivering food goods.<\/p>",
+            "heading": "about iconiq fashion",
+            "subtext": "<p>At Iconiq Fashion, we're dedicated to helping you discover and express your unique style essence. We firmly believe that embodying your inner iconiq self isn't just a statement, but a transformative lifestyle. Our<br\/>mission is simple: to empower you to not only look iconiq but to feel it and live it every day. Welcome to a world where your style journey meets its true iconiq potential. <\/p>",
             "social_heading": "",
             "show_social": true
           }
@@ -33,9 +33,9 @@
           "type": "textarea",
           "settings": {
             "heading": "Contact us",
-            "contsubtext": "<p>Write your store address<\/p>",
-            "footer_address": "Write your store address",
-            "footer_contact_no": "123 456 789",
+            "contsubtext": "",
+            "footer_address": "",
+            "footer_contact_no": "",
             "footer_contact_id": "your@email.com"
           }
         }
