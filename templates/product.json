@@ -116,7 +116,7 @@
           "settings": {
             "heading": "Size Guide",
             "content": "",
-            "page": "",
+            "page": "{{ product.metafields.custom.size_guide.value }}",
             "icon": "none"
           }
         }
