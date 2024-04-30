@@ -546,7 +546,8 @@
   "shopify": {
     "checkout": {
       "shop_policies": {
-        "refund_policy": "Return Policy "
+        "refund_policy": "Return Policy ",
+        "shipping_policy": "Shipping Policy "
       }
     }
   },
@@ -557,7 +558,8 @@
       }
     },
     "shop_policies": {
-      "refund_policy": "Return Policy "
+      "refund_policy": "Return Policy ",
+      "shipping_policy": "Shipping Policy "
     }
   }
 }
