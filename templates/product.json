@@ -56,7 +56,6 @@
         },
         "description_AATUyW": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "pdesc_title": ""
           }
@@ -148,7 +147,7 @@
       "settings": {
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail_slider",
-        "media_size": "small",
+        "media_size": "medium",
         "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
