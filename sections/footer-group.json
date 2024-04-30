@@ -18,33 +18,22 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "The Company",
+            "menu": "the-company"
           }
         },
-        "622cafc8-ba59-4cc5-bc24-218d9f73ea7a": {
+        "link_list_qKmGQ3": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "8c41e77e-2d98-426a-ae31-1508c541356b": {
-          "type": "textarea",
-          "settings": {
-            "heading": "Contact us",
-            "contsubtext": "",
-            "footer_address": "",
-            "footer_contact_no": "",
-            "footer_contact_id": "your@email.com"
+            "heading": "Customer Care",
+            "menu": "customer-care"
           }
         }
       },
       "block_order": [
         "03523ab4-ebb1-44e2-99ee-52b7929b3852",
         "footer-0",
-        "622cafc8-ba59-4cc5-bc24-218d9f73ea7a",
-        "8c41e77e-2d98-426a-ae31-1508c541356b"
+        "link_list_qKmGQ3"
       ],
       "settings": {
         "wbfoot_bgcolor": "#f5f5f5",
