@@ -549,7 +549,8 @@
         "refund_policy": "Return Policy ",
         "shipping_policy": "Shipping Policy ",
         "terms_of_service": "Terms & Conditions ",
-        "privacy_policy": "Privacy Policy "
+        "privacy_policy": "Privacy Policy ",
+        "contact_information": "Contact Us "
       },
       "marketing": {
         "disclaimer": {
@@ -562,6 +563,9 @@
             "privacy_policy": "Privacy Policy "
           }
         }
+      },
+      "thank_you": {
+        "contact_information_title": "Contact Us "
       }
     }
   },
