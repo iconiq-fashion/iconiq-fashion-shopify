@@ -47,7 +47,7 @@
         "enable_country_selector": true,
         "enable_language_selector": true,
         "langcur_style": "solid",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "payment_enable": true,
         "show_copyright": true,
         "scroll-to-top": true,
