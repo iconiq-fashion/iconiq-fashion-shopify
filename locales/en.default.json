@@ -549,5 +549,15 @@
         "refund_policy": "Return Policy "
       }
     }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "returns": {
+        "return_and_refund_modal_header": "Return Policy "
+      }
+    },
+    "shop_policies": {
+      "refund_policy": "Return Policy "
+    }
   }
 }
