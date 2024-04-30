@@ -72,12 +72,6 @@
             "share_pinterest": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "pdesc_title": "Description"
-          }
-        },
         "27036c39-0467-41e3-84cb-e6b47122d064": {
           "type": "complementary",
           "settings": {
@@ -112,8 +106,17 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Fit & Sizing",
-            "content": "<p>{{ product.metafields.custom.fit_sizing | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.fit_sizing | metafield_tag }}",
             "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_eRe6i6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size Guide",
+            "content": "",
+            "page": "{{ product.metafields.custom.size_guide.value }}",
             "icon": "none"
           }
         }
@@ -128,11 +131,11 @@
         "buy_buttons",
         "3293aa46-ec0c-4c30-b783-8c210ee66f5e",
         "53d1b536-e8c6-416b-81ae-5537d48a8356",
-        "description",
         "27036c39-0467-41e3-84cb-e6b47122d064",
         "collapsible_tab_mtDFkT",
         "collapsible_tab_XpedVX",
-        "collapsible_tab_UgkLyj"
+        "collapsible_tab_UgkLyj",
+        "collapsible_tab_eRe6i6"
       ],
       "settings": {
         "enable_sticky_info": true,
