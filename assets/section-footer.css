@@ -8,6 +8,29 @@
 footer .footer-block--newsletter .field__input:focus-visible {
   box-shadow: none;
 }
+
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-block-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .footer-block {
+    align-items: start;
+  }
+
+  .footer-block-content {
+    width: 100%;
+  }
+}
+
 .footer-block button:not(.toggle.collapsed) {
   display: none;
 }
