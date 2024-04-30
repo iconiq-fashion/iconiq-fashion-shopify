@@ -548,15 +548,18 @@
       "shop_policies": {
         "refund_policy": "Return Policy ",
         "shipping_policy": "Shipping Policy ",
-        "terms_of_service": "Terms & Conditions "
+        "terms_of_service": "Terms & Conditions ",
+        "privacy_policy": "Privacy Policy "
       },
       "marketing": {
         "disclaimer": {
-          "terms_of_service": "Terms & Conditions "
+          "terms_of_service": "Terms & Conditions ",
+          "privacy_policy": "Privacy Policy "
         },
         "sms": {
           "disclaimer": {
-            "terms_of_service": "Terms & Conditions "
+            "terms_of_service": "Terms & Conditions ",
+            "privacy_policy": "Privacy Policy "
           }
         }
       }
@@ -571,7 +574,8 @@
     "shop_policies": {
       "refund_policy": "Return Policy ",
       "shipping_policy": "Shipping Policy ",
-      "terms_of_service": "Terms & Conditions "
+      "terms_of_service": "Terms & Conditions ",
+      "privacy_policy": "Privacy Policy "
     }
   }
 }
