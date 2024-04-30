@@ -547,7 +547,18 @@
     "checkout": {
       "shop_policies": {
         "refund_policy": "Return Policy ",
-        "shipping_policy": "Shipping Policy "
+        "shipping_policy": "Shipping Policy ",
+        "terms_of_service": "Terms & Conditions "
+      },
+      "marketing": {
+        "disclaimer": {
+          "terms_of_service": "Terms & Conditions "
+        },
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Terms & Conditions "
+          }
+        }
       }
     }
   },
@@ -559,7 +570,8 @@
     },
     "shop_policies": {
       "refund_policy": "Return Policy ",
-      "shipping_policy": "Shipping Policy "
+      "shipping_policy": "Shipping Policy ",
+      "terms_of_service": "Terms & Conditions "
     }
   }
 }
