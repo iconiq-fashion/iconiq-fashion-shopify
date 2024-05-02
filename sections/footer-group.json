@@ -10,7 +10,7 @@
           "settings": {
             "footer-logo_width": 150,
             "heading": "The Mission",
-            "subtext": "<p>We firmly believe that embodying your inner self isn't just a statement, but a transformative lifestyle. <\/p><p>Our mission is simple, to empower you to not only look iconiq but to feel it and live it every day. <\/p>",
+            "subtext": "<p>We firmly believe that embodying your inner self isn't just a statement, but a lifestyle. <\/p><p>The mission is simple, to empower you to not only look iconiq but to feel it and live it every day. <\/p>",
             "social_heading": "",
             "show_social": true
           }
@@ -43,7 +43,7 @@
         "enable_newsletter": true,
         "color_scheme": "accent-2",
         "newsheading": "BECOME A VIP",
-        "newssub": "<p>Sign up to get early access to new releases, discounts and exclusive offers and <strong>$20 off your first purchase.<\/strong><\/p>",
+        "newssub": "<p>Sign up to get early access to new releases, promotions and exclusive offers.<\/p>",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "langcur_style": "solid",
