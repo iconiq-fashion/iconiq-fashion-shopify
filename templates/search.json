@@ -4,7 +4,7 @@
       "type": "main-search",
       "settings": {
         "columns_desktop": 3,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "display_product_type": false,
         "show_vendor": false,
@@ -28,5 +28,7 @@
       }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
