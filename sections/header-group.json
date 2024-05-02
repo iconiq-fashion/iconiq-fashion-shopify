@@ -5,23 +5,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "GET FREE SHIPPING WHEN YOU SPEND $450 OR MORE NZ ONLY",
-            "link": ""
-          }
-        },
         "1ec10fdf-be69-4f31-94ae-df0ce5067464": {
           "type": "announcement",
           "settings": {
-            "text": "GET 10% OFF YOUR FIRST PURCHASE",
+            "text": "10% OFF YOUR FIRST PURCHASE",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
         "1ec10fdf-be69-4f31-94ae-df0ce5067464"
       ],
       "custom_css": [
