@@ -42,6 +42,7 @@
         },
         "2d286980-47fb-4df0-9e39-0dfd54926f46": {
           "type": "stock_countdown",
+          "disabled": true,
           "settings": {
             "max_stock": 150,
             "limited_stock_cut_off": 10,
