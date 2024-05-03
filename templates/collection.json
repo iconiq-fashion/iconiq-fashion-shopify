@@ -19,7 +19,7 @@
         "products_per_page": 12,
         "columns_desktop": 3,
         "image_ratio": "portrait",
-        "display_product_type": true,
+        "display_product_type": false,
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
