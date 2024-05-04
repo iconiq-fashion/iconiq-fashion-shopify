@@ -8,13 +8,21 @@
         "1ec10fdf-be69-4f31-94ae-df0ce5067464": {
           "type": "announcement",
           "settings": {
-            "text": "CODE: BIGLAUNCH | GET 10% OFF YOUR FIRST ORDER",
+            "text": "CODE: BIGLAUNCH | 15% OFF YOUR FIRST ORDER",
+            "link": ""
+          }
+        },
+        "announcement_NkYntB": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING | NZ ONLY",
             "link": ""
           }
         }
       },
       "block_order": [
-        "1ec10fdf-be69-4f31-94ae-df0ce5067464"
+        "1ec10fdf-be69-4f31-94ae-df0ce5067464",
+        "announcement_NkYntB"
       ],
       "custom_css": [
 
