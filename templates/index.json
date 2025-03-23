@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1644650669e1107d39": {
@@ -6,17 +15,17 @@
         "01e1dddc-e334-4334-9475-16162d50ee67": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1316_16x9_NO_LOGOS_WEB.jpg",
+            "image": "shopify://shop_images/image_1.jpg",
             "hcaption": "",
             "heading": "",
             "button_h_upp": true,
             "heading_size": "large",
-            "heading_image": "shopify:\/\/shop_images\/Red_Transparent.png",
+            "heading_image": "shopify://shop_images/Red_Transparent.png",
             "heading_image_size": 60,
             "subheading": "",
             "subheadingtext": "",
             "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style": "solid",
             "button_size": "medium-btn",
             "button_txt_upp": true,
@@ -48,9 +57,7 @@
     },
     "7164a463-55ea-46ef-a91a-8c3f3dd268ef": {
       "type": "featured-collection",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Now Trending",
         "heading_size": "h0",
@@ -96,14 +103,14 @@
         "caption_p6CQXG": {
           "type": "caption",
           "settings": {
-            "storysubtitle": "<p>Life is always fabulous when you’re the star of the show. <\/p>"
+            "storysubtitle": "<p>Life is always fabulous when you’re the star of the show. </p>"
           }
         },
         "button_zhYDGQ": {
           "type": "button",
           "settings": {
             "btntxt": "SHOP THE LOOK",
-            "link": "shopify:\/\/products\/shes-so-classy-dress-with-gloves",
+            "link": "shopify://products/shes-so-classy-dress-with-gloves",
             "button_style": "outline",
             "button_size": "bs_large"
           }
@@ -116,7 +123,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "image": "shopify:\/\/shop_images\/IMG_1685.jpg",
+        "image": "shopify://shop_images/IMG_3573_8ac1a187-0e5f-4927-9a26-8373e17fa13e.jpg",
         "image_width": "50%",
         "image_position": "imgpright",
         "imgalign": "imgalignmiddle",
@@ -133,17 +140,17 @@
         "slide_pft3UV": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1390_16x9_NO_LOGOS_WEB.jpg",
+            "image": "shopify://shop_images/image_2.jpg",
             "hcaption": "",
             "heading": "",
             "button_h_upp": true,
             "heading_size": "large",
-            "heading_image": "shopify:\/\/shop_images\/Ruby.png",
+            "heading_image": "shopify://shop_images/Ruby.png",
             "heading_image_size": 25,
             "subheading": "",
             "subheadingtext": "",
             "button_label": "Shop collection",
-            "link": "shopify:\/\/collections\/mass-appeal",
+            "link": "shopify://collections/mass-appeal",
             "button_style": "solid",
             "button_size": "medium-btn",
             "button_txt_upp": true,
