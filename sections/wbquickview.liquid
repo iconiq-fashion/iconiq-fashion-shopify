@@ -301,57 +301,6 @@
                 {%- when 'title' -%}
                   <h1 class='product__title' {{ block.shopify_attributes }}>{{ product.title | escape }}</h1>
 
-                {%- when 'stock_countdown' -%}
-                  {% comment %} Inventory tracking on product page {% endcomment %}
-                  {% assign current_variant = product.selected_or_first_available_variant %}
-                  {%- liquid
-                    if current_variant.inventory_quantity > block.settings.limited_stock_cut_off
-                      assign inventory_status = 'high'
-                      assign inventory_message = block.settings.instock_message | replace: '{stock_number}', current_variant.inventory_quantity
-                    elsif current_variant.inventory_quantity == 0
-                      assign inventory_status = 'soon'
-                      assign inventory_message = block.settings.continue_selling_message
-                    else
-                      assign inventory_status = 'low'
-                      assign inventory_message = block.settings.limited_stock_message | replace: '{stock_number}', current_variant.inventory_quantity
-                    endif
-                  -%}
-                  {%- assign bar_progress = current_variant.inventory_quantity
-                    | times: 100
-                    | divided_by: block.settings.max_stock
-                    | append: '%'
-                  -%}
-                  <div class='wbstockcount {% unless current_variant.available and current_variant.inventory_quantity >= 0 %} hidden {% endunless %}'>
-                    <div class='wbstockinfo wbstockinfo_{{ inventory_status }}'>{{ inventory_message }}</div>
-                    <div class='wbstockinfo-bar {% if current_variant.inventory_policy == "continue" and current_variant.inventory_quantity == 0 %} hidden {% endif %}'>
-                      <span class='wbstockinfo-probar' style='width: {{ bar_progress }}'></span>
-                    </div>
-                  </div>
-                  {%- style -%}
-                    :root {
-                      --product-in-stock-color: {{ block.settings.in_stock_color }};
-                      --product-low-stock-color: {{ block.settings.limited_stock_color }};
-                      --product-continue-selling-color: {{ block.settings.continue_selling_color }};
-                    }
-                  {%- endstyle -%}
-                  {{ 'component-stock-countdown.css' | asset_url | stylesheet_tag }}
-                  <script id='product-variants' type='application/json'>
-                    {
-                      {%- for variant in product.variants -%}
-                        "{{- variant.id -}}": { "q":{{ variant.inventory_quantity }}, "p":"{{ variant.inventory_policy }}"}{%- if forloop.last == false -%},{%- endif -%}
-                      {%- endfor -%}
-                    }
-                  </script>
-                  <script id='product-stock-countdown-config' type='application/json'>
-                    {
-                      "max_stock": {{ block.settings.max_stock }},
-                      "limited_stock_cut_off": {{ block.settings.limited_stock_cut_off }},
-                      "instock_message": "{{ block.settings.instock_message }}",
-                      "limited_stock_message": "{{ block.settings.limited_stock_message }}",
-                      "continue_selling_message": "{{ block.settings.continue_selling_message }}"
-                    }
-                  </script>
-
                 {%- when 'price' -%}
                   <div class='wbpricetax'>
                     <div
