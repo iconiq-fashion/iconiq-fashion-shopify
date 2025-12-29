@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -102,14 +111,14 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/iconiqfashion_official\/",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@iconiqfashion_official?lang=en",
+    "social_instagram_link": "https://www.instagram.com/iconiiqofficial/?hl=en",
+    "social_tiktok_link": "https://www.tiktok.com/@iconiiqofficial",
     "social_tumblr_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCuO61Etlmiv5qxklJihfKWQ",
+    "social_youtube_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
-    "favicon": "shopify:\/\/shop_images\/black-fav-w-padding.png",
+    "favicon": "shopify://shop_images/black-fav-w-padding.png",
     "currency_code_enabled": true,
     "cart_type": "drawer",
     "cart_bg": "accent-2",
@@ -127,7 +136,7 @@
     "show_cartpayment": true,
     "upsellp": false,
     "upsellpempty": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/11.png",
+    "checkout_logo_image": "shopify://shop_images/11.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_input_background_color_mode": "white",
@@ -138,13 +147,11 @@
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
-        "settings": {
-        }
+        "settings": {}
       },
       "main-password-footer": {
         "type": "main-password-footer",
-        "settings": {
-        }
+        "settings": {}
       },
       "age-verification": {
         "type": "age-verification",
@@ -152,25 +159,22 @@
           "enable_age_verification": false,
           "blue_image": 40,
           "heading": "Confirm your age",
-          "question": "<p>Are you 18 years old or older?<\/p>",
+          "question": "<p>Are you 18 years old or older?</p>",
           "decline_button": "No I'm not",
           "approve_button": "Yes I am",
           "declined_heading": "Come back when you're older",
-          "declined_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+          "declined_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
           "return_button": "Oops, I entered incorrectly",
           "color_scheme": "accent-1"
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "back-in-stock-restock-alerts-4bb73be2-b7c2-4870-949f-c528145452a3": {
-        "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/main\/4bb73be2-b7c2-4870-949f-c528145452a3",
+        "type": "shopify://apps/back-in-stock-restock-alerts/blocks/main/4bb73be2-b7c2-4870-949f-c528145452a3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -300,19 +304,17 @@
       "show_cartpayment": true,
       "upsellp": true,
       "upsellpempty": true,
-      "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+      "checkout_logo_image": "shopify://shop_images/logo.png",
       "checkout_accent_color": "#121212",
       "checkout_button_color": "#121212",
       "sections": {
         "main-password-header": {
           "type": "main-password-header",
-          "settings": {
-          }
+          "settings": {}
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -441,26 +443,22 @@
       "show_cartpayment": true,
       "upsellp": true,
       "upsellpempty": true,
-      "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+      "checkout_logo_image": "shopify://shop_images/logo.png",
       "checkout_accent_color": "#121212",
       "checkout_button_color": "#121212",
       "sections": {
         "main-password-header": {
           "type": "main-password-header",
-          "settings": {
-          }
+          "settings": {}
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": {
-          }
+          "settings": {}
         }
       }
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }

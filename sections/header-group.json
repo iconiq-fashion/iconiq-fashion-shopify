@@ -23,8 +23,7 @@
         }
       },
       "block_order": [
-        "1ec10fdf-be69-4f31-94ae-df0ce5067464",
-        "announcement_NkYntB"
+        "1ec10fdf-be69-4f31-94ae-df0ce5067464"
       ],
       "custom_css": [],
       "settings": {
@@ -43,8 +42,8 @@
       "settings": {
         "logo_position": "top-center",
         "color_scheme": "background-1",
-        "logo": "shopify://shop_images/11.png",
-        "logo_width": 250,
+        "logo": "shopify://shop_images/33.png",
+        "logo_width": 174,
         "mobile_logo_width": 170,
         "show_stxt": "show_siconinr",
         "show_acicon": "show_acicontext",

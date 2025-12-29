@@ -15,12 +15,11 @@
         "01e1dddc-e334-4334-9475-16162d50ee67": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/image_1.jpg",
+            "image": "shopify://shop_images/ChatGPT_Image_Dec_30_2025_12_33_23_PM.png",
             "hcaption": "",
             "heading": "",
             "button_h_upp": true,
             "heading_size": "large",
-            "heading_image": "shopify://shop_images/Red_Transparent.png",
             "heading_image_size": 60,
             "subheading": "",
             "subheadingtext": "",
@@ -54,137 +53,9 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "7164a463-55ea-46ef-a91a-8c3f3dd268ef": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "title": "Now Trending",
-        "heading_size": "h0",
-        "head_align": "left",
-        "collection": "now-trending",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "arrow_position": "inline",
-        "image_ratio": "portrait",
-        "display_product_type": false,
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "button_style": "solid",
-        "show_quick_view": true,
-        "quick_v_pos": "bottom-left",
-        "quick_icon": "first-icon",
-        "space_quick": 0,
-        "show_variants": true,
-        "picker_type": "button",
-        "show_colorswatch": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "view_button_pos": "bottom",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "image_with_text_6UB39C": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_7wmKyf": {
-          "type": "heading",
-          "settings": {
-            "storytitle": "Everything Iconiq",
-            "heading_size": "h0"
-          }
-        },
-        "caption_p6CQXG": {
-          "type": "caption",
-          "settings": {
-            "storysubtitle": "<p>Life is always fabulous when you’re the star of the show. </p>"
-          }
-        },
-        "button_zhYDGQ": {
-          "type": "button",
-          "settings": {
-            "btntxt": "SHOP THE LOOK",
-            "link": "shopify://products/luna-rhinestone-top",
-            "button_style": "outline",
-            "button_size": "bs_large"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7wmKyf",
-        "caption_p6CQXG",
-        "button_zhYDGQ"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "image": "shopify://shop_images/IMG_3573_8ac1a187-0e5f-4927-9a26-8373e17fa13e.jpg",
-        "image_width": "50%",
-        "image_position": "imgpright",
-        "imgalign": "imgalignmiddle",
-        "image_height": "adapt",
-        "Horizontal_alignment": "center",
-        "mobile_alignment": "center",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "slideshow_WN37fP": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_pft3UV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/image_2.jpg",
-            "hcaption": "",
-            "heading": "",
-            "button_h_upp": true,
-            "heading_size": "large",
-            "heading_image": "shopify://shop_images/Ruby.png",
-            "heading_image_size": 25,
-            "subheading": "",
-            "subheadingtext": "",
-            "button_label": "Shop collection",
-            "link": "shopify://collections/mass-appeal",
-            "button_style": "solid",
-            "button_size": "medium-btn",
-            "button_txt_upp": true,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "accent-3",
-            "text_alignment_mobile": "left"
-          }
-        }
-      },
-      "block_order": [
-        "slide_pft3UV"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "pagicolor": "#ffffff",
-        "pagination_alignment": "center",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
-    "1644650669e1107d39",
-    "7164a463-55ea-46ef-a91a-8c3f3dd268ef",
-    "image_with_text_6UB39C",
-    "slideshow_WN37fP"
+    "1644650669e1107d39"
   ]
 }
